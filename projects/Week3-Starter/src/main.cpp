@@ -157,7 +157,7 @@ int main() {
 		-0.6f, -0.5f, 0.5f,   0.8f, 1.0f, 2.0f
 	};
 	VertexBuffer* interleaved_vbo = new VertexBuffer();
-	interleaved_vbo->LoadData(interleaved, 6 * 6);
+	interleaved_vbo->LoadData(interleaved, 6 * 6); 
 
 	static const uint16_t indices[] = {
 		0, 1, 2,
